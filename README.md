@@ -17,7 +17,18 @@
 
 - Python
   - 3.8.5
-  
+
+---
+# Build
+
+  ```
+  $ cd ~/catkin_ws/src
+  $ git clone https://github.com/MasatoKubotera/calculator.git
+  $ cd ~/catkin_ws
+  $ catkin_make
+  $ source ~/.bashrc
+  ```
+    
 ---
 # Run
 
@@ -29,4 +40,5 @@ terminal2:
 $ rosrun calculator talker.py
 
 terminal3:
-$ rosrun calculate rosrun calculator listener.py
+$ rosrun calculator listener.py
+```
